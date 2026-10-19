@@ -1,32 +1,35 @@
 # 🧮 Student Grade Calculator
 
-A beginner-friendly Python mini-project that calculates a student's grade based on their marks.
+A Python mini-project that calculates a student's total marks, average, percentage, and grade for five subjects.
 
 ## 🎯 Objective
 
-The goal of this project is to practice Python fundamentals by building a simple real-world application.
+This project was built to practice Python fundamentals and apply them to a simple real-world problem.
 
 ## ✨ Features
 
 - Accepts student name
-- Accepts marks
-- Calculates the grade automatically
-- Displays the student's result
-- Uses a reusable Python function
-- Uses conditional statements
+- Accepts marks for 5 subjects
+- Calculates total marks
+- Calculates average marks
+- Calculates percentage
+- Automatically assigns a grade
+- Uses functions and conditional statements
+- Uses lists and loops
 
 ## 🛠️ Technologies
 
 - Python 3
 - Functions
+- Lists
+- Loops
 - Conditional Statements
 - User Input
-- Basic Programming Logic
 
 ## 📊 Grading System
 
-| Marks | Grade |
-|---:|:---|
+| Percentage | Grade |
+|---:|:---:|
 | 90–100 | A+ |
 | 80–89 | A |
 | 70–79 | B |
