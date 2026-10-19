@@ -1,27 +1,38 @@
 # Student Grade Calculator
 # Mini Project 01 - Python Foundations
 
-def calculate_grade(mark):
-    if mark >= 90:
+def calculate_grade(percentage):
+    if percentage >= 90:
         return "A+"
-    elif mark >= 80:
+    elif percentage >= 80:
         return "A"
-    elif mark >= 70:
+    elif percentage >= 70:
         return "B"
-    elif mark >= 60:
+    elif percentage >= 60:
         return "C"
-    elif mark >= 50:
+    elif percentage >= 50:
         return "D"
     else:
         return "F"
 
 
 name = input("Enter student name: ")
-mark = float(input("Enter mark: "))
 
-grade = calculate_grade(mark)
+marks = []
+
+for i in range(1, 6):
+    mark = float(input(f"Enter marks for subject {i}: "))
+    marks.append(mark)
+
+total = sum(marks)
+average = total / len(marks)
+percentage = (total / 500) * 100
+
+grade = calculate_grade(percentage)
 
 print("\n--- Student Result ---")
 print("Name:", name)
-print("Mark:", mark)
+print("Total:", total, "/ 500")
+print("Average:", average)
+print("Percentage:", percentage, "%")
 print("Grade:", grade)
