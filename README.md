@@ -1,49 +1,90 @@
 # 🐍 Python Foundations
 
-A structured learning repository documenting my journey from Python fundamentals to problem solving and software development.
+A structured collection of my Python fundamentals, problem-solving practice, and beginner-friendly projects.
 
-## 🎯 Goal
+## 🎯 Purpose
 
-Build strong Python fundamentals as the foundation for Data Structures & Algorithms, Machine Learning, and Artificial Intelligence.
+This repository documents my Python learning journey from fundamentals to practical problem solving.
 
-## 📚 Topics
+I am building a strong programming foundation before moving into Data Structures & Algorithms, Machine Learning, and Artificial Intelligence.
 
-- Variables & Data Types
-- Input & Output
-- Type Conversion
-- Operators
+## 📚 Topics Covered
+
+- Variables and Data Types
+- Input and Output
 - Conditional Statements
 - Loops
 - Strings
 - Lists
-- Tuples & Sets
+- Tuples and Sets
 - Dictionaries
 - Functions
 - File Handling
 - Exception Handling
+- Python Modules
 - Object-Oriented Programming
 
-## 📈 Learning Progress
+## 🧩 Problem Solving
 
-- [x] Variables & Data Types
-- [ ] Input & Output
-- [ ] Conditional Statements
-- [ ] Loops
-- [ ] Strings
-- [ ] Lists
-- [ ] Tuples & Sets
-- [ ] Dictionaries
-- [ ] Functions
-- [ ] Object-Oriented Programming
+The `practice/` folder contains Python problems that I solve while improving my logical thinking and programming skills.
 
-## 🗂️ Repository Structure
+Topics include:
+
+- Conditions
+- Loops
+- Strings
+- Number Logic
+- Basic Algorithms
+- Problem Solving
+
+## 🚀 Mini Projects
+
+### 🧮 Student Grade Calculator
+
+A beginner-friendly Python application that calculates:
+
+- Total marks
+- Average
+- Percentage
+- Grade
+
+### 💰 Expense Tracker
+
+A simple Python project for practicing basic expense management and programming logic.
+
+More projects will be added as I progress.
+
+## 📁 Repository Structure
 
 ```text
 python-foundations/
-├── README.md
+│
+├── practice/
+│   ├── 01_even_odd.py
+│   ├── 02_positive_negative.py
+│   ├── ...
+│   └── README.md
+│
+├── mini-projects/
+│   ├── student-grade-calculator/
+│   │   ├── main.py
+│   │   └── README.md
+│   │
+│   └── expense-tracker/
+│       ├── main.py
+│       └── README.md
+│
 ├── 01_variables.py
 ├── 02_input_output.py
 ├── 03_conditions.py
 ├── 04_loops.py
-└── ...
-
+├── 05_strings.py
+├── 06_lists.py
+├── 07_tuples_sets.py
+├── 08_dictionaries.py
+├── 09_functions.py
+├── 10_file_handling.py
+├── 11_exception_handling.py
+├── 12_modules.py
+├── 13_oop.py
+└── README.md
