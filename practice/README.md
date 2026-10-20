@@ -15,6 +15,7 @@ This folder contains Python programming problems I solve while building my probl
 | 07 | Prime Number | Loops & Conditions |
 | 08 | Fibonacci Series | Loops |
 | 09 | Armstrong Number | Loops & Number Logic |
+| 10 | Count Vowels | Strings & Loops |
 
 ## 🎯 Purpose
 
