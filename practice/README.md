@@ -16,6 +16,7 @@ This folder contains Python programming problems I solve while building my probl
 | 08 | Fibonacci Series | Loops |
 | 09 | Armstrong Number | Loops & Number Logic |
 | 10 | Count Vowels | Strings & Loops |
+| 11 | Reverse a String | Strings & Slicing |
 
 ## 🎯 Purpose
 
